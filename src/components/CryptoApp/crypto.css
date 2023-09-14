@@ -1,0 +1,80 @@
+.crypto-container {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.274);
+    width: 250px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.crypto-container:hover {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5), 0 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+
+.crypto-name {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px 2px #474747;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.crypto-name img {
+    margin-right: 5px;
+  }
+
+.crypto-price {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px 2px #474747;
+    margin-left: 10px;
+}
+
+.crypto-stats {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-container {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.crypto-input {
+    border-top-left-radius: 0.5em;
+    border-bottom-left-radius: 0.5em;
+    height: 30px;
+    border: none;
+    background: rgba(0, 0, 0, 0.16);
+    color: white;
+    outline: none;
+    opacity: 1;
+}
+
+.crypto-search-button {
+    height: 32px;
+    border-top-right-radius: 0.5em;
+    border-bottom-right-radius: 0.5em;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    background: #323741;
+    color: white;
+    opacity: 1;
+}
+
+.crypto-search-button:hover {
+    background: #2a2d35;
+    transition-duration: 1000ms;
+}
